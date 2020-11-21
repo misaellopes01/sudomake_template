@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>SudoMake</title>
+        <link rel="sortcut icon" href="icon.ico">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/aos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!--<script type="text/javascript" src="js/modalscript.js"></script>-->
+        <script type="text/javascript" src="js/aos.js"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#"> <img src="css/img/logo.png" alt="SudoMake"></a>
+            <nav>
+                <input type="checkbox" id="res-menu">
+                <label for="res-menu">
+                    <i class="fa fa-bars" id="sign-one"></i>
+                    <i class="fa fa-times" id="sign-two"></i>
+                </label>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li>
+                    <a href="#services">Serviços</a>
+                    <ul>
+                        <li><a href="#services" class="trigger">Criacao de Softwares</a></li>
+                        <li><a href="">Desenvolvimento WEB</a></li>
+                        <li><a href="">Design Grafico</a></li>
+                        <li><a href="">Assistencia Tecnica</a></li>
+                    </ul>
+                </li>
+                <li><a href="#adm">Administrador</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+                </ul>
+                <div class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h5>Solicitar Serviços</h5>
+                        <div class="serv">
+                            <label for="servicos"><h6>Escolha o Serviço:</h6></label>
+                            <select name="servicos" id="servicos">
+                            <option value="software">Criacao de Softwares</option>
+                            <option value="sites">Desenvolvimento WEB</option>
+                            <option value="design">Design Grafico</option>
+                            <option value="support">Assistencia Tecnica</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="banner-area">
+            <div class="banner-img"> </div>
+                <h2>SudoMake</h2>
+                <h3 class="sudo">Building The Future</h3>
+                <a href="#contact" class="banner-btn">Contacta-nos</a>
+        </section>
+     
+        <section class="about-area" id="about">
+            <h3 class="section-title" >Quem somos?</h3>
+            <ul class="about-content">
+                <li class="about-left" data-aos="zoom-in"
+                data-aos-offset="100"
+                data-aos-delay="10"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                </li>
+                <li class="about-right" data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-delay="10"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <h4>SudoMake</h4>
+                    <h5>Construindo o futuro</h5> 
+                    <p>Somos uma startup na área de Informática.
+                    Nosso foco está em criar Softwares, Sites e Sistemas de Gestão. 
+                    Trabalhamos também em Design Gráfico e Assistência Técnica à Computadores e Telemóveis</p>
+                    <a href="" class="about-btn">Ler mais</a>
+                </li>
+            </ul>   
+        </section>
+
+        <section class="services-area" id="services">
+            <h3 class="section-title">Nossos Serviços</h3>
+            <ul class="services-content">
+                <li
+                data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-delay="10"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <i class="fas fa-phone-laptop"></i>
+                    <h4>Desenvolvimento WEB</h4>
+                    <p>The Flexible Box Layout Module, makes it easier to design flexible 
+                    responsive layout structure without using float or positioning.</p>
+                    <a href="" class="services-btn">Soliciar</a>
+                </li>
+                <li
+                data-aos="zoom-in"
+                data-aos-offset="100"
+                data-aos-delay="10"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Criacao de Softwares</h4>
+                    <p>The Flexible Box Layout Module, makes it easier to design flexible 
+                    responsive layout structure without using float or positioning.</p>
+                    <a href="" class="services-btn">Soliciar</a>
+                </li>
+                <li
+                data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-delay="10"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <i class="fas fa-laptop"></i>
+                    <h4>Design Grafico</h4>
+                    <p>The Flexible Box Layout Module, makes it easier to design flexible 
+                    responsive layout structure without using float or positioning.</p>
+                    <a href="" class="services-btn">Soliciar</a>
+                </li>
+                <li class="lista"
+                data-aos="fade-down"
+                data-aos-offset="100"
+                data-aos-delay="10"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <i class="fas fa-tools"></i>
+                    <h4>Assistencia Tecnica</h4>
+                    <p>The Flexible Box Layout Module, makes it easier to design flexible 
+                    responsive layout structure without using float or positioning.</p>
+                    <a href="" class="services-btn">Soliciar</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact-area" id="contact">
+            <h3 class="section-title">Contacta-nos</h3>
+            <ul class="contact-content">
+                <li
+                data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-delay="5"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Rua Caconda - Bela Vista<br>Lobito, Angola</p>
+                </li>
+                <li
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="5"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out">
+                    <i class="fa fa-phone"></i>
+                    <p>(+244) 938 782 078<br>(+244) 995 470 468</p>
+                </li>
+                <li
+                data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-delay="5"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out">
+                    <i class="fa fa-envelope"></i>
+                    <p>sudo_make@outlook.com</p>
+                </li>
+            </ul>
+        </section>
+        <div class="container">
+            <form action=""
+                data-aos="zoom-in"
+                data-aos-offset="100"
+                data-aos-delay="5"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out">
+              <h1>Junte-se ao nosso Newsletter!</h1>
+              <p>E receba atualizacoes sobre servicos, promocoes e mais.</p>
+              <div class="email-box">
+                <i class="fas fa-envelope"></i>
+                <input class="tbox1" type="text" name="" value="" placeholder="Digite seu nome">
+                <input class="tbox" type="email" name="" value="" placeholder="Seu email">
+                <button class="btn" type="button" name="button">Inscrever-se</button>
+              </div>
+            </form>
+          </div>
+
+        <footer class="foot-area" id="foot">
+            <div class="footer-social-icons">
+            <ul>
+                <li><a href="https://www.facebook.com/SudoMake-104810890894168/" target="_blank" class="btn-facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="btn-twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="mailto:sudo_make@outlook.com" class="btn-mail"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            </div>
+            <ul class="foot-content">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Rua Caconda - Bela Vista<br>Lobito, Angola</p>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#services">Serviços</a>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <p>sudo_make@outlook.com</p>
+                </li>
+            </ul>
+            <div class="footer-bottom">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p>SudoMake © 2020 - Todos os Direitos Reservados</p>
+                  </div>
+                </div>
+              </div>
+        </footer>
+
+        <script>
+            AOS.init();
+        </script>
+       <script>
+        function typeWriter(elemento){
+            const textArray = elemento.innerHTML.split('');
+            elemento.innerHTML ='';
+            textArray.forEach((letra, i) => {
+                console.log(letra)
+                setTimeout(() => {
+                    elemento.innerHTML += letra; 
+                }, 100 * i)
+            })
+        }
+        typeWriter(document.querySelector('.sudo')); 
+        </script>
+        <script>
+            var modal = document.querySelector(".modal");
+            var trigger = document.querySelector(".trigger");
+            var closeButton = document.querySelector(".close-button");
+
+            function toggleModal() {
+                modal.classList.toggle("show-modal");
+            }
+
+            function windowOnClick(event) {
+                if (event.target === modal) {
+                    toggleModal();
+                }
+            }
+
+            trigger.addEventListener("click", toggleModal);
+            closeButton.addEventListener("click", toggleModal);
+            window.addEventListener("click", windowOnClick);
+
+        </script>
+    </body>
+
+</html>
