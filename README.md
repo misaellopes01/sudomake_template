@@ -1,5 +1,5 @@
 <h1># Template for SudoMake</h1>
-<h4>!but is not in use!</h4>
+<h4>!not finished!</h4>
    <img src="https://user-images.githubusercontent.com/66078558/118270389-e8a3dd00-b4b7-11eb-8e19-462bc1ece8d6.png" alt="Home Page">
     
    <br>
